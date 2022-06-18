@@ -1,1 +1,1 @@
-# vue_intro_github_pages
+# intro_github_pages
