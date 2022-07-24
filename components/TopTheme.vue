@@ -1,10 +1,10 @@
 <template>
-  <v-card width="80%" height="auto" class="rounded-xl mx-auto">
-    <v-row no-gutters align-content="center">
-      <v-col>
-        <v-img src="/my-face.png" class="my-5 my-face rounded-circle"> </v-img>
+  <v-container>
+    <v-row>
+      <v-col cols="6" align="right" class="mr-3">
+        <v-img src="/my-face.png" class="my-face rounded-circle"> </v-img>
       </v-col>
-      <v-col class="py-5">
+      <v-col>
         <h3>{{ profile.myName }}</h3>
         <v-list>
           <v-list-item>
@@ -22,9 +22,18 @@
             </v-list-item-content>
           </v-list-item>
         </v-list>
+        <v-list>
+          <v-list-item>
+            <v-list-item-content>
+              <v-list-item-title>
+                Link:<a href="https://github.com/0t3k25">GitHub</a>
+              </v-list-item-title>
+            </v-list-item-content>
+          </v-list-item>
+        </v-list>
       </v-col>
     </v-row>
-  </v-card>
+  </v-container>
 </template>
 
 <script lang="ts">
